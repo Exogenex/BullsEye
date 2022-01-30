@@ -174,8 +174,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="ePX-5v-nuS">
-                                <rect key="frame" x="44" y="0.0" width="808" height="393"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="ePX-5v-nuS">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                             </imageView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYc-2Q-b1L">
                                 <rect key="frame" x="64" y="20" width="768" height="308"/>
@@ -209,10 +209,10 @@
                             <constraint firstItem="WdQ-Nu-zGq" firstAttribute="trailing" secondItem="tYc-2Q-b1L" secondAttribute="trailing" constant="20" id="Oew-WS-jXm"/>
                             <constraint firstItem="d2x-7S-OcQ" firstAttribute="centerX" secondItem="0AA-JH-V4N" secondAttribute="centerX" id="OwZ-sx-6dn"/>
                             <constraint firstItem="tYc-2Q-b1L" firstAttribute="leading" secondItem="WdQ-Nu-zGq" secondAttribute="leading" constant="20" id="QfE-dx-uoS"/>
-                            <constraint firstItem="ePX-5v-nuS" firstAttribute="top" secondItem="WdQ-Nu-zGq" secondAttribute="top" id="b0p-g1-26g"/>
-                            <constraint firstItem="WdQ-Nu-zGq" firstAttribute="bottom" secondItem="ePX-5v-nuS" secondAttribute="bottom" id="fCB-wn-XRK"/>
-                            <constraint firstItem="ePX-5v-nuS" firstAttribute="leading" secondItem="WdQ-Nu-zGq" secondAttribute="leading" id="rnF-Xd-LbD"/>
-                            <constraint firstItem="WdQ-Nu-zGq" firstAttribute="trailing" secondItem="ePX-5v-nuS" secondAttribute="trailing" id="uA4-cW-djc"/>
+                            <constraint firstItem="ePX-5v-nuS" firstAttribute="top" secondItem="0AA-JH-V4N" secondAttribute="top" id="b0p-g1-26g"/>
+                            <constraint firstAttribute="bottom" secondItem="ePX-5v-nuS" secondAttribute="bottom" id="fCB-wn-XRK"/>
+                            <constraint firstItem="ePX-5v-nuS" firstAttribute="leading" secondItem="0AA-JH-V4N" secondAttribute="leading" id="rnF-Xd-LbD"/>
+                            <constraint firstAttribute="trailing" secondItem="ePX-5v-nuS" secondAttribute="trailing" id="uA4-cW-djc"/>
                         </constraints>
                     </view>
                     <connections>
